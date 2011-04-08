@@ -30,4 +30,7 @@ Once you have connected to your instance via SSH:
 5. Your sources are in /root/src/cortex
 
 
-
+TODO:
+- add stop functions to rc.d directory
+- package built dependencies
+- create a custom AMI
