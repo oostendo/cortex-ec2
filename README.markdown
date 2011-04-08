@@ -31,6 +31,7 @@ Once you have connected to your instance via SSH:
 
 
 TODO:
- - add stop functions to rc.d directory
- - package built dependencies
- - create a custom AMI
+
+- add stop functions to rc.d directory
+- package built dependencies
+- create a custom AMI
