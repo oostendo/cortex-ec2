@@ -24,7 +24,7 @@ Once you have connected to your instance via SSH:
 
 1. sudo su - (login as root)
 2. git clone git://github.com/oostendo/cortex-ec2.git 
-3. source cortex-ec2/bin/init_cortexec2.sh
+3. source cortex-ec2/bin/setup_cortex.sh
 (wait for it...)
 4. source cortex-ec2/bin/services_start.sh
 5. Your sources are in /root/src/cortex

@@ -10,13 +10,3 @@ cd cvblob-python/cvblob
 source ./build.sh
 cd ../../../..
 
-git clone git://git.code.sf.net/p/simplecv/git.git simplecv
-cd simplecv
-nosetests test.py
-cd ..
-
-git clone git://github.com/nicolasff/webdis.git
-cd webdis
-make
-cd ..
-

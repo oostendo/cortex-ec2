@@ -4,6 +4,6 @@ directory = init/system/
 
 for file in $( ls $directory ); do source $file
 
-setupdirectory = init/setup/
+builddirectory = init/build/
 
-for file in $( ls $setupdirectory ); do source $file
+for file in $( ls $builddirectory ); do source $file
