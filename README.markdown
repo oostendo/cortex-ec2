@@ -29,6 +29,8 @@ Once you have connected to your instance via SSH:
 4. ./cortex-ec2/bin/services_start.sh
 5. Your sources are in /root/src/cortex
 
+Note that if you are installing this on something other than the EC2 image suggested, you should use "build_cortex.sh" rather than setup_cortex.sh which only has EC2-specific binaries.
+
 
 TODO:
 
