@@ -1,4 +1,3 @@
-mkdir src
 cd src
 wget http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.2/OpenCV-2.2.0.tar.bz2
 bunzip2 OpenCV-2.2.0.tar.bz2
