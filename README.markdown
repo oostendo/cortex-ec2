@@ -13,13 +13,12 @@ going to http://aws.amazon.com
 7. Click the select button 
 8. Change instance type to "Micro (T1.micro 613 MB)" and click Continue
 9. Keep all defaults in the Advanced Instance Options and click Continue
-9. Create a key pair if you haven't before -- or select an existing one
-10. In your firewall you want to allow port 80(http) and port 22(ssh)
-10a.  add a new custom TCP rule for port 80 source 0.0.0.0/0, click add rule
-10b.  add a new custom TCP rule for port 22 source 0.0.0.0/0, click add rule
-10c.  name the group "webssh" or something similar and click Continue
-11. In the "My Instances" screen, you should see your new instance spinning
-12. Select your instance, and in the "Instance Actions" menu select "Connect" for instructions on how to log in
+10. Create a key pair if you haven't before -- or select an existing one
+11.  add a new custom TCP rule for port 80 source 0.0.0.0/0, click add rule
+12.  add a new custom TCP rule for port 22 source 0.0.0.0/0, click add rule
+13.  name the group "webssh" or something similar and click Continue
+14. In the "My Instances" screen, you should see your new instance spinning
+15. Select your instance, and in the "Instance Actions" menu select "Connect" for instructions on how to log in
 
 Once you have connected to your instance via SSH:
 
