@@ -5,4 +5,5 @@ cp -r zxing-1.6/python-zxing/zxing.py cortex/lib/python2.6/
 cd cortex
 source bin/activate
 easy_install redis
+easy_install nose
 cd ../..
